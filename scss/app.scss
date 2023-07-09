@@ -7,6 +7,7 @@
     Segoe UI Emoji, Segoe UI Symbol;
     --font-size: 16px;
     --text-color: #424242;
+    --transition-duration: 1s;
 }
 
 @font-face {
@@ -177,6 +178,11 @@ header{
             background: rgba(0, 0, 0, 0.33);
             border-radius: 16px;
             width: 150px;
+            transition-duration: var(--transition-duration);
+
+            &:hover {
+                transform: scale(1.1);
+            }
 
             .top-section {
                 background-color: var(--color-white);
@@ -271,6 +277,12 @@ header{
 
         .partner {
             margin: 20px 40px;
+            transition-duration: var(--transition-duration);
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
             .icon {
                 img {
                     height: 80px;
