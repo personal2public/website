@@ -93,6 +93,10 @@ header{
             text-transform: capitalize;
             padding: 5px 20px;
             border-radius: 20px;
+            a {
+                color: var(--primary-color);
+                font-weight: 600;
+            }
         }
     }
 }

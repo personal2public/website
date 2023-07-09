@@ -91,6 +91,10 @@ header .header-block .Join {
   padding: 5px 20px;
   border-radius: 20px;
 }
+header .header-block .Join a {
+  color: var(--primary-color);
+  font-weight: 600;
+}
 
 .banner-container {
   background-color: var(--primary-color);
