@@ -432,8 +432,8 @@ footer .social-block .social img {
   position: fixed;
   height: 80px;
   width: 145px;
-  bottom: 20px;
-  right: 20px;
+  bottom: 30px;
+  right: 25px;
 }
 .floating-container:hover {
   height: 300px;
