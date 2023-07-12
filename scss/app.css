@@ -411,4 +411,71 @@ footer .social-block .social img {
   .banner-container .banner-block .banner-caption {
     width: 45%;
   }
+}
+@keyframes come-in {
+  0% {
+    transform: translatey(100px);
+    opacity: 0;
+  }
+  30% {
+    transform: translateX(-50px) scale(0.4);
+  }
+  70% {
+    transform: translateX(0px) scale(1.2);
+  }
+  100% {
+    transform: translatey(0px) scale(1);
+    opacity: 1;
+  }
+}
+.floating-container {
+  position: fixed;
+  height: 80px;
+  width: 145px;
+  bottom: 20px;
+  right: 20px;
+}
+.floating-container:hover {
+  height: 300px;
+}
+.floating-container:hover .floating-button {
+  box-shadow: 0 10px 25px rgba(44, 179, 240, 0.6);
+  transform: translatey(5px);
+  transition: all 0.3s;
+}
+.floating-container .floating-button {
+  position: absolute;
+  background: var(--primary-color);
+  bottom: 0;
+  border-radius: 16px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: white;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  z-index: 100;
+  box-shadow: 0 10px 25px -5px rgba(44, 179, 240, 0.6);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.floating-container .float-element {
+  position: relative;
+  display: block;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 15px auto;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  line-height: 50px;
+  z-index: 0;
+  opacity: 0;
+  transform: translateY(100px);
+}
+.floating-container .float-element .material-icons {
+  vertical-align: middle;
+  font-size: 16px;
 }/*# sourceMappingURL=app.css.map */
