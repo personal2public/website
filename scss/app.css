@@ -112,6 +112,9 @@ header .header-block .Join a {
 .banner-container .banner-block .banner-caption .heading {
   font-size: 42px;
 }
+.banner-container .banner-block .banner-caption .heading a {
+  color: inherit;
+}
 .banner-container .banner-block .banner-caption .sub-heading {
   font-size: 16px;
   font-weight: 400;
@@ -239,7 +242,7 @@ header .header-block .Join a {
 }
 
 .partner-container {
-  background: linear-gradient(180deg, rgba(251, 251, 251, 0) 0%, rgba(24, 90, 157, 0.16) 100%);
+  background-color: var(--color-white);
 }
 .partner-container .partner-block {
   display: flex;
@@ -254,6 +257,9 @@ header .header-block .Join a {
 }
 .partner-container .partner-block .partner:hover {
   transform: scale(1.1);
+}
+.partner-container .partner-block .partner .icon {
+  text-align: center;
 }
 .partner-container .partner-block .partner .icon img {
   height: 80px;

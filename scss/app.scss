@@ -116,6 +116,10 @@ header{
 
             .heading {
                 font-size: 42px;
+
+                a {
+                    color: inherit;
+                }
             }
 
             .sub-heading {
@@ -270,7 +274,8 @@ header{
 }
 
 .partner-container {
-    background: linear-gradient(180deg, rgba(251, 251, 251, 0.00) 0%, rgba(24, 90, 157, 0.16) 100%);
+    // background: linear-gradient(180deg, rgba(251, 251, 251, 0.00) 0%, rgba(24, 90, 157, 0.16) 100%);
+    background-color: var(--color-white);
 
     .partner-block {
         display: flex;
@@ -288,6 +293,7 @@ header{
             }
 
             .icon {
+                text-align: center;
                 img {
                     height: 80px;
                 }
