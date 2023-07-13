@@ -199,7 +199,7 @@ header{
                 border-radius: 16px 16px 0px 0px;
 
                 img {
-                    height: 35px;
+                    height: 40px;
                 }
             }
             
@@ -276,6 +276,16 @@ header{
 .partner-container {
     // background: linear-gradient(180deg, rgba(251, 251, 251, 0.00) 0%, rgba(24, 90, 157, 0.16) 100%);
     background-color: var(--color-white);
+
+    .sub-heading {
+        font-weight: 600;
+    }
+
+    ul {
+        li {
+            margin: 10px 0px;
+        }
+    }
 
     .partner-block {
         display: flex;

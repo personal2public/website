@@ -179,7 +179,7 @@ header .header-block .Join a {
   border-radius: 16px 16px 0px 0px;
 }
 .solution-container .solution-block .solution .top-section img {
-  height: 35px;
+  height: 40px;
 }
 .solution-container .solution-block .solution .content {
   text-align: center;
@@ -243,6 +243,12 @@ header .header-block .Join a {
 
 .partner-container {
   background-color: var(--color-white);
+}
+.partner-container .sub-heading {
+  font-weight: 600;
+}
+.partner-container ul li {
+  margin: 10px 0px;
 }
 .partner-container .partner-block {
   display: flex;
